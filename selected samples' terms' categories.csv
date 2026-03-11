@@ -1,0 +1,33 @@
+term in sample,Extract_id,contextual category,LLM and human's relation,term category
+boesman,2136,human/group ref,1=1,racial and colonial expressions
+inboorling,"1916, 2344","human/group ref, human/group ref","1=1, l>h",racial and colonial expressions
+negerslaven,144,human/group ref,1=1,racial and colonial expressions
+hottentot,1753,human/group ref,1=1,racial and colonial expressions
+eskimo,H137,human/group ref,1=1,racial and colonial expressions
+historisch,"2556, 2164","alternative, alternative","0=0, 0=0",neutral or recalimed  term
+wild,1348,irrelevant sense,0=0,Value-laden descriptors
+aziatisch,580,alternative,0=0,"racial and colonial expressions, neutral or recalimed  term"
+inheems,"1129, 545, H80","non-human/group reference, human/group ref (now reclaimed), human/group ref (now reclaimed)","0=0, l<h, l<h","racial and colonial expressions, neutral or recalimed  term"
+ontdekken,"2161,",miscellaneous,l=h,"Value-laden descriptors, racial and colonial expressions"
+slaven,"1759, 1026","human/group ref, human/group ref","l=h, l>h","racial and colonial expressions, dehumanising or stereotypical terms"
+inlandsche,238,human/group ref,l=h,racial and colonial expressions
+onbeschaafd,"368, 1241","miscellaneous, human/group ref",l=h l1h0,Value-laden descriptors
+moslim,"104, 2737, 2267, 1566, 1672","alternative, alternative, alternative, alternative, alternative","l=h, l=h l<h, l<h, l>h","social identity labels, neutral or recalimed  term"
+barbaren/babaar,"1825, 310, 941(babaar)","miscellaneous, human/group ref, human/group ref (babaar)","l=h l>h, l1h0",Value-laden descriptors
+berber,2154,human/group ref,l=h,racial and colonial expressions
+zwartje,1280,miscellaneous,l=h,"racial and colonial expressions, dehumanising or stereotypical terms"
+marron,"2188, 1156, 1087, 2286","human/group ref, human/group ref, semantic change, human/group ref","l=h, l0h1, l0h1, l0h1",racial and colonial expressions
+dwerg,106,human/group ref,l<h,dehumanising or stereotypical terms
+mesties,H66,human/group ref,l<h,racial and colonial expressions
+metis,497,human/group ref,l>h,racial and colonial expressions
+indo-europeaan,1450,alternative,l<h,"racial and colonial expressions, neutral or recalimed  term"
+lilliputter,"1686, 946","miscellaneous, miscellaneous","l<h, l0h1",dehumanising or stereotypical terms
+volbloed,2756,human/group ref,l<h,racial and colonial expressions
+aboriginal,"968, 173","human/group ref, miscellaneous","l<h, l1h0",racial and colonial expressions
+kokkie,2443,human/group ref,l>h,social identity labels
+primitief,598,non-human/group ref,l>h,Value-laden descriptors
+misvormden,1833,human/group ref,l>h,dehumanising or stereotypical terms
+koppensneller,1316,non-human/group ref,l>h,dehumanising or stereotypical terms
+baboe,"2559, 275","human/group ref, human/group ref","l>h, l1h0",social identity labels
+homo,1366,semantic change,l0h1,"dehumanising or stereotypical terms, social identity labels"
+indiaan,2056,human/group ref,l1h0,racial and colonial expressions
