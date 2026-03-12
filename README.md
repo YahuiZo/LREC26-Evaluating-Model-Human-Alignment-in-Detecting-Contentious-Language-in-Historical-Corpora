@@ -17,14 +17,14 @@ To run the code in this repository, several files downloaded or created from the
 
 ## Data Preprocessing
 
-- `filtering ConConCor.ipynb`  
+- `filtering_ConConCor.ipynb`  
    Filters annotations and annotators that meet the quality requirements.  
    Output: `ready_annotations.csv` with columns `[anonymous_participant_id, extract_id, score, suggestion]`
 
 - `Figure 1: Inter-human agreement.ipynb`  
    Generates Figure 1 using `ready_annotations.csv`, and filters samples that reach full human consensus (all annotators chose 0 or all chose 1) into `1254_ready_samples.csv`. 
 
-- `create input dataset.ipynb`    
+- `create_input_dataset.ipynb`    
    Combines filtered annotations with sample texts from `data.csv` and prepares LLM input data.  
    Output: `2090_ready_samples.csv` (full dataset) and `1254_ready_samples.csv` (consensus dataset) with columns: `[extract_id, target, target_compound, text, annotations, score]`
 
@@ -34,10 +34,10 @@ To run the code in this repository, several files downloaded or created from the
 
 Create separate files containing your API keys before running the notebooks.
 
-- `LLM single run.ipynb`      
+- `LLM_single_run.ipynb`      
    Loads `2090_ready_samples.csv`, runs GPT-4o or Llama-3-70B once per sample (`temperature = 0`), and converts outputs to binary labels (`0 = not contentious`, `1 = contentious`). Results are saved in `./gpt and llama/` for batch evaluation.
 
-- `LLM multiple runs.ipynb`      
+- `LLM_multiple_runs.ipynb`      
    Loads `2090_ready_samples.csv`, uses the original English prompt (`ori-en-CandR`), runs the model multiple times per sample (`temperature = 1`) with the number of runs equal to the number of human annotators, and computes majority vote across runs.
 
 ---
