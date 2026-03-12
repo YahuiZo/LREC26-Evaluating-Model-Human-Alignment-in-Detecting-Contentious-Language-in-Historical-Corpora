@@ -19,8 +19,7 @@ To run the code in this repository, several files downloaded or created from the
 
 - `filtering ConConCor.ipynb`  
    Filters annotations and annotators that meet the quality requirements.  
-   Output: `ready_annotations.csv`   
-   `[anonymous_participant_id, extract_id, score, suggestion]`
+   Output: `ready_annotations.csv` with columns `[anonymous_participant_id, extract_id, score, suggestion]`
 
 - `Figure 1: Inter-human agreement.ipynb`  
    Generates Figure 1 using `ready_annotations.csv`, and filters samples that reach full human consensus (all annotators chose 0 or all chose 1) into `1254_ready_samples.csv`. 
