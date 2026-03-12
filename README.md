@@ -34,10 +34,10 @@ To run the code in this repository, several files downloaded or created from the
 
 Create separate files containing your API keys before running the notebooks.
 
-- `LLM single run.ipynb`
+- `LLM single run.ipynb`   
    Loads `2090_ready_samples.csv`, runs GPT-4o or Llama-3-70B once per sample (`temperature = 0`), and converts outputs to binary labels (`0 = not contentious`, `1 = contentious`). Results are saved in `./gpt and llama/` for batch evaluation.
 
-- `LLM multiple runs.ipynb`
+- `LLM multiple runs.ipynb`   
    Loads `2090_ready_samples.csv`, uses the original English prompt (`ori-en-CandR`), runs the model multiple times per sample (`temperature = 1`) with the number of runs equal to the number of human annotators, and computes majority vote across runs.
 
 ---
